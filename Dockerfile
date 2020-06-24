@@ -1,6 +1,6 @@
 # Container image that runs your code
 FROM golang:1.14-alpine3.12
-RUN apk add --no-cache bash
+RUN apk add --no-cache bash build-base
 
 # JenkinsAction related labal
 # LABEL ACTION_ARGS="who-to-greet"
